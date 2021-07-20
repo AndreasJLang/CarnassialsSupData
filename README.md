@@ -1,1 +1,12 @@
-# CarnassialsSupData
+AJ Lang, T Engler, T Martin
+
+A repository for data associated with "Dental topographic and three-dimensional geometric morphometric analysis of carnassialization in different clades of carnivorous mammals (Dasyuromorphia, Carnivora, Hyaenodonta)" submitted to Journal of Morphology July 2021.
+
+The evolution of carnassial teeth in mammals, especially in the Carnivora, has been subject of many morphometric and some dental topographic studies. Here, we use for the first time a combination of dental topographic analysis (Dirichlet normal energy) and 3D geometric morphometrics of less and high carnassialized lower teeth of carnivoran, dasyuromorph and hyaenodont taxa. Carnassial crown curvature, as indicated by Dirichlet normal energy, is high in lesser carnassialized teeth and low in higher carnassialized teeth, where it is influenced by the reduction of crown features such as cusps and crests. PC1 of the geometric morphometric analysis is linked to enlargement of the carnassial blade, reduction of the talonid crushing basin and an increasingly asymmetric cervix line with an enlarged mesial flexure in more carnassialized teeth. Distribution of PC1 values further indicates that along the tooth row of dasyuromorphs (m2 - m4) and hyaenodonts (m1 - m3) the most distal carnassial is the most carnassialized (principal carnassial), and in most taxa with overall higher carnassialized teeth, carnassialization successively increases from the anterior to the posterior tooth position along the tooth row. PC2 indicates that a longitudinal elongated carnassial is present in caniforms and in unspecialized feliforms, which separates these taxa in morphospace from all dasyuromorphs, hyaenodonts and specialized feliforms. An ancestral state reconstruction shows that this longitudinal elongation may be a plesiomorphic ancestral state for the Carnivora, which is different from the Dasyuromorphia and the Hyaenodonta. This elongation, enabling the presence of a longitudinally aligned carnassial blade as well as a complete talonid basin, might have provided the Carnivora with an advantage in terms of adaptive versatility.
+
+
+All data has been processed to be used with the software R (R Core Team, 2020; version 4.0.5).
+Handplaced fixed landmarks have been exported to "fixed_landmarks.RData" as an object of class "array".
+Handplaced semi-landmarks have been exported to "semilandmarks.RData" as an object of class "array".
+The phylogenetic tree has been exported to "tree_export.RData" as an object of class "phylo".
+The output of the Procrustes analysis using the "geomorph" (Adams, Collyer, Kaliontzopoulou, & Baken, 2021) library has been exported to "gpa_output.RData" as an object of class "gpagen".
